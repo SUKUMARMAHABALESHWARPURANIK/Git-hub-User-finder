@@ -1,0 +1,26 @@
+App component->functionalities
+Navbar->is constant across pages
+Search->input field-search button- data has to be fetched ->clear button need to be appear
+Userlist->all the list of Userlist
+UserItem->Individuals User
+userdetails->get the details of that user
+Repolist->list all the repository
+repoItem->Individuals repository
+alert component->simple component
+
+packages we use:-npm install react-router-dom(client slide router)
+                npm install axies(data fetching library)
+public api for getting github user data->https://api.github.com/users
+api->application programming interface->JSON data browser /HTML
+
+React app https://api.github.com/users->30 githhub data(random 30 users)-to get the specified user is the input field
+
+https://api.github.com/search/users?q=whatever we type in the input field -> text value -this is called as query string-
+filtering purpose
+
+in initial load->clearbutton->true->get user->users should be empty
+
+More button->300/user/username->https://api.github.com/users/sukumar->show the details and display
+
+https://api.github.com/users/
+axios->
